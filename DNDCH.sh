@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#This script is a work in progress, and mostly for practicing/learning how to code in bash.
+#Ideas - If you have a suggestion, put it on the line below and mention it in the commit. That means you Kieran. No Touchy unless I say so.
+#----Might remove level for now because it just seems like a lot.
+#Up Next - Class modifiers, and a Save File System. Hopefully I can use the save on another script.
+
+#clear & start prompts
 clear
 echo "Welcome to the D&D Character Creator!"
 echo "Let's build your hero."
@@ -31,7 +37,7 @@ cost_for_score() {
   esac
 }
 
-
+#honestly forgot to mark this and regretting it now. lots going on.
 for ability in STR DEX CON INT WIS CHA; do
   while true; do
     clear
